@@ -1,3 +1,38 @@
+
+# project Tools
+npm install react-icons --save
+npm install styled-components
+
+
+# Styled Components try out for learing
+bulding button en div componenten for styling them up inside a js file
+so you realy get a good componenten lay out ant you can use them al over.
+
+# Check out some links I found really useful!
+CSS Resets - https://bitsofco.de/a-look-at-css-res...
+
+Styled Components - https://www.styled-components.com/doc...
+
+Flexbox - https://css-tricks.com/snippets/css/a...
+
+Emmet - https://code.visualstudio.com/docs/ed...
+
+Material Icon - https://material.io/tools/icons/?icon...
+
+Google Font - https://fonts.google.com/specimen/Luc...
+
+Background - https://css-tricks.com/perfect-full-p...
+
+Theme - https://www.styled-components.com/doc...
+
+Color Palette - https://coolors.co/
+
+Chrome Dev Tools Caution - https://mobile1st.com/why-chrome-devt...
+
+Functional setState - https://reactjs.org/docs/react-compon...
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
