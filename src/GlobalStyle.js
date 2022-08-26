@@ -55,19 +55,7 @@ ul {
     --gray: rgba(202, 200, 200, 0.721);
     --border:.1rem solid rgba(255,255,255,.3);
     /* simpel color */
-    --Red:'red'
-    --Orange:'orange'
-    --Yellow:'yellow'
-    --Olive:'olive'
-    --Green:'green'
-    --Teal:'teal'
-    --Blue:'blue'
-    --Violet:'violet'
-    --Purple:'purple'
-    --Pink:'pink'
-    --Brown:'brown'
-    --Grey:'grey'
-    --Black:'black'
+   
     --Glass:rgba(0, 0, 0, 0.404)
     --shadow:0 1px 5px rgba(104,104,104,0.8)
      /* Extra  */
