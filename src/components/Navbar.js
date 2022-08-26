@@ -6,6 +6,7 @@ import ImageLogo from "../assets/logo/coffee-logo.png"
 
 
 const Nav = styled.div`
+    background-color: var(--bg);
     display: flex;
     justify-content: space-around;
     align-items: center;
