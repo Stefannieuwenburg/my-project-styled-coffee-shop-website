@@ -74,6 +74,9 @@ const Paragraph = styled.p`
 `;
 
 const Blogs = () => {
+    const blogOnclick = () => {
+        window.location.href = "#Menu";
+    }
     return (
         <Fragment>
             <BlogContainer id="Blogs">
@@ -97,7 +100,7 @@ const Blogs = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.
                         </Paragraph>
-                        <Button href="/#">read more</Button>
+                        <Button onClick={blogOnclick}>read more</Button>
                     </Box>
 
                     <Box>
@@ -113,7 +116,7 @@ const Blogs = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.
                         </Paragraph>
-                        <Button href="/#">read more</Button>
+                        <Button onClick={blogOnclick}>read more</Button>
                     </Box>
 
                     <Box>
@@ -129,7 +132,7 @@ const Blogs = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.
                         </Paragraph>
-                        <Button href="/#">read more</Button>
+                        <Button onClick={blogOnclick}>read more</Button>
                     </Box>
                 </Boxes>
             </BlogContainer>

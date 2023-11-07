@@ -91,6 +91,7 @@ const Navbar = () => {
                     <MenuLink href="#Review">Review</MenuLink>
                     <MenuLink href="#Contact">Contact</MenuLink>
                     <MenuLink href="#Blogs">Blogs</MenuLink>
+                    <MenuLink href="#Info">Info</MenuLink>
                 </Menu>
             </Nav>
         </Fragment>

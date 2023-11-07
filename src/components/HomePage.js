@@ -62,6 +62,9 @@ const Button = styled.button`
 `;
 
 const HeroPage = () => {
+    const clickHeroPage = () => {
+        window.location.href = "#Menu";
+    };
     return (
         <Fragment>
             <Home id="Home">
@@ -72,7 +75,7 @@ const HeroPage = () => {
                     Come to us for a morning coffee look at the site for some special deals we offer this week, 
                     <span> Sale!!</span>
                 </Paragraph>
-                <Button href="/#"> get yours now</Button>
+                <Button onClick={clickHeroPage}> Get your coffee now</Button>
             </Home>
         </Fragment>
     );

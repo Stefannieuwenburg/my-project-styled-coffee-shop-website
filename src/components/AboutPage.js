@@ -72,6 +72,9 @@ const Button = styled.button`
 
 
 const AboutPage = () => {
+    const onclickAbout = () => {
+        window.location.href = "#Blogs";
+    }
     return (
         <Fragment>
             <AboutContainer id="About">
@@ -87,7 +90,7 @@ const AboutPage = () => {
                             fuga alias quae ratione a officiis id temporibus
                             autem? Quod nemo facilis cupiditate.
                         </Paragraph>
-                        <Button href="/#">
+                        <Button onClick={onclickAbout}>
                             learn more
                         </Button>
                 </AboutSection>
