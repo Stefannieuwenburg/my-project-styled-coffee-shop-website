@@ -15,12 +15,11 @@ const ContactContainer = styled.div`
     justify-content: center;
 `;
 const ImageContainer = styled.div`
-    
-    
     border: 3px solid var(--main-color);
     border-radius: 20px;
 `;
 const Wrapper = styled.div`
+    background-color: var(--main-color);
     margin: 1.2rem;
     display: flex;
     flex-direction: column;

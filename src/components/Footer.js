@@ -10,6 +10,7 @@ const FlexHeader = styled.div`
     align-items: center;
     margin: 0.2rem;
     padding: 0.2rem;
+    background-color: var(--bg);
 `;	
 const HeaderTitle = styled.h2`
     display: flex;
@@ -23,6 +24,7 @@ const HeaderTitle = styled.h2`
     color: var(--main-color);
     font-size: 4rem;
     letter-spacing: 2px;
+    background-color: var(--bg);
     span {
         color: #fff;
         text-transform: uppercase;
