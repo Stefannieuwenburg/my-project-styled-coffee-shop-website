@@ -45,7 +45,6 @@ const FlexFooter = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
     margin: 0.2rem;
     padding: 0.2rem;
     a {
@@ -71,6 +70,7 @@ const BoxFooter = styled.div`
     border: 3px solid var(--main-color);
     border-radius: 20px;
     color: white;
+    background-color: var(--bg);
 `;
 
 const Footer = () => {
