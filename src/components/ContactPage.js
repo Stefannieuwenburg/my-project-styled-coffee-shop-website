@@ -74,7 +74,7 @@ const BoxTitle = styled.h3`
     font-family: "Roboto", sans-serif;
     font-size: 2.2rem;
     margin: 1.2rem;
-    color: var(--main-color);
+    color: var(--black);
 `;
 
 const Button = styled.button`
