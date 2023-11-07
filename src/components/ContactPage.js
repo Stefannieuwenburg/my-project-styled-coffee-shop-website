@@ -4,14 +4,21 @@ import styled from "styled-components";
 import ImgKoff from "../assets/pictures/ImgKoff.jpg"
 
 const ContactContainer = styled.div`
-    background-image: url(${ImgKoff});
-    background-position: "center";
     min-height: 100vh;
-    padding:5.2rem;
+    background-image: url(${ImgKoff});
+    background-image:'no-repeat';
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+`;
+const ImageContainer = styled.div`
+    
+    
+    border: 3px solid var(--main-color);
+    border-radius: 20px;
 `;
 const Wrapper = styled.div`
     margin: 1.2rem;
@@ -19,6 +26,8 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 1%;
+    min-width:1%;
     border: 3px solid var(--main-color);
     border-radius: 10px;
 `;
@@ -99,6 +108,7 @@ const ContactPage = () => {
                     {" "}
                     <span>contact</span> us{" "}
                 </HeaderTitle>
+                <ImageContainer>
                 <Wrapper>
                         <WrapperForm>
                             <BoxTitle>Get in touch</BoxTitle>
@@ -120,6 +130,7 @@ const ContactPage = () => {
                         </WrapperForm>
                    
                 </Wrapper>
+                </ImageContainer>
             </ContactContainer>
         </Fragment>
     );

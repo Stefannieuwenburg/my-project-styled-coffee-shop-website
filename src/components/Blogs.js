@@ -58,7 +58,7 @@ const Boxes = styled.div`
 `;
 
 const Box = styled.div`
-    margin: 1.5rem;
+    margin: 2.5rem;
     background: var(--bg);
     text-align: center;
     border: 3px solid var(--main-color);
@@ -95,7 +95,7 @@ const Blogs = () => {
                         <BoxTitle href="/#">
                             tasty and refreshing coffee
                         </BoxTitle>
-                        <TitleGold>by admin / 21st may, 2021</TitleGold>
+                        <TitleGold>by admin / 21st may, 2023</TitleGold>
                         <Paragraph>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.
@@ -111,7 +111,7 @@ const Blogs = () => {
                         <BoxTitle href="/#">
                             tasty and refreshing coffee
                         </BoxTitle>
-                        <TitleGold>by admin / 21st may, 2021</TitleGold>
+                        <TitleGold>by admin / 21st may, 2023</TitleGold>
                         <Paragraph>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.
@@ -127,7 +127,7 @@ const Blogs = () => {
                         <BoxTitle href="/#">
                             tasty and refreshing coffee
                         </BoxTitle>
-                        <TitleGold>by admin / 21st may, 2021</TitleGold>
+                        <TitleGold>by admin / 21st may, 2023</TitleGold>
                         <Paragraph>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.

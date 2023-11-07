@@ -53,12 +53,14 @@ const Button = styled.button`
 
 const GridBox = styled.div`
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    justify-content: center;
+    align-items: center;
 `;
 
 const Box = styled.div`
-    margin: 1.2rem;
+    margin: 2.3rem;
     background: var(--bg);
     text-align: center;
     border: 3px solid var(--main-color);
