@@ -14,7 +14,9 @@ const AboutContainer = styled.div`
 const AboutSection = styled.div`
     min-height: 60vh;
     background-image: url(${AboutImage});
-    background-position: "center";
+    background-image:'no-repeat';
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
