@@ -39,6 +39,7 @@ const ParagraphStyled = styled.p`
     font-size: 1.2rem;
     margin: 1.2rem;
     color: var(--Grey);
+    background-color: var(--bg);
 `;
 const FlexFooter = styled.div`
     display: flex;
@@ -47,6 +48,7 @@ const FlexFooter = styled.div`
     align-items: center;
     margin: 0.2rem;
     padding: 0.2rem;
+    background-color: var(--bg);
     a {
         color: white;
         text-decoration: none;
@@ -62,6 +64,7 @@ const FlexParagraph = styled.div`
     color: white;
     margin: 0.2rem;
     padding: 0.2rem;
+    background-color: var(--bg);
 `;
 const BoxFooter = styled.div`
     margin: 1.2rem;
