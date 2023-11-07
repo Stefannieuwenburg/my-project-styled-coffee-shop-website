@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import styled from "styled-components";
 
 
-
 const MenuContainer = styled.div`
     background-color: var(--bg);
     min-height: 100vh;
@@ -52,7 +51,7 @@ const Button = styled.button`
     }
 `;
 
-const Boxes = styled.div`
+const GridBox = styled.div`
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -68,6 +67,9 @@ const Box = styled.div`
 `;
 
 const MenuPage = () => {
+    const handleClickCart = (e) => {
+         e.preventDefault(alert("add to cart"));
+    }
     return (
         <Fragment>
             <MenuContainer id="Menu">
@@ -75,7 +77,7 @@ const MenuPage = () => {
                     our <span>menu</span>
                 </PageTitle>
 
-                <Boxes>
+                <GridBox>
                     <Box>
                         <img
                             src={require("../assets/pictures/menu-1.png")}
@@ -85,7 +87,7 @@ const MenuPage = () => {
                         <Price>
                             $3.99 
                         </Price>
-                        <Button>add to cart</Button>
+                        <Button onclick={handleClickCart}>add to cart</Button>
                     </Box>
 
                     <Box>
@@ -97,7 +99,7 @@ const MenuPage = () => {
                         <Price>
                             $3.99 
                         </Price>
-                        <Button>add to cart</Button>
+                        <Button onClick={handleClickCart}>add to cart</Button>
                     </Box>
 
                     <Box>
@@ -109,7 +111,7 @@ const MenuPage = () => {
                         <Price>
                             $2.99 
                         </Price>
-                        <Button>add to cart</Button>
+                        <Button onClick={handleClickCart}>add to cart</Button>
                     </Box>
 
                     <Box>
@@ -121,7 +123,7 @@ const MenuPage = () => {
                         <Price>
                             $2.99 
                         </Price>
-                        <Button> add to cart</Button>
+                        <Button onClick={handleClickCart}> add to cart</Button>
                     </Box>
 
                     <Box>
@@ -133,7 +135,7 @@ const MenuPage = () => {
                         <Price>
                             $2.99 
                         </Price>
-                        <Button>add to cart</Button>
+                        <Button onClick={handleClickCart}>add to cart</Button>
                     </Box>
 
                     <Box>
@@ -145,9 +147,9 @@ const MenuPage = () => {
                         <Price>
                             $3.99 
                         </Price>
-                        <Button>add to cart</Button>
+                        <Button onClick={handleClickCart}>add to cart</Button>
                     </Box>
-                </Boxes>
+                </GridBox>
             </MenuContainer>
         </Fragment>
     );

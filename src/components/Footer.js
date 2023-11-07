@@ -3,6 +3,31 @@ import styled from "styled-components";
 import { FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa';
 import {Paragraph} from '../GlobalStyle';
 
+const FlexHeader = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+    padding: 0.2rem;
+`;	
+const HeaderTitle = styled.h2`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--main-color);
+    font-size: 4rem;
+    letter-spacing: 2px;
+    span {
+        color: #fff;
+        text-transform: uppercase;
+    }
+`;
 
 const FooterContainer = styled.div`
     background-color: var(--bg);
@@ -13,7 +38,7 @@ const ParagraphStyled = styled.p`
     margin: 1.2rem;
     color: var(--Grey);
 `;
-const FooterFlex = styled.div`
+const FlexFooter = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,30 +62,48 @@ const FlexParagraph = styled.div`
     margin: 0.2rem;
     padding: 0.2rem;
 `;
+const BoxFooter = styled.div`
+    margin: 1.2rem;
+    background: var(--bg);
+    text-align: center;
+    border: 3px solid var(--main-color);
+    border-radius: 20px;
+    color: white;
+`;
 
 const Footer = () => {
     return (
         <Fragment>
-            <FooterContainer id="Info">
-                <FooterFlex>
+            <FlexHeader>
+                <HeaderTitle>
+                    <span>info </span>contact
+                </HeaderTitle>
+            </FlexHeader>
+            <BoxFooter>
+                <FooterContainer id="Info">
+                <FlexFooter>
                     <a href="https://www.facebook.com/stefan.nieuwenburg.35/?locale=nl_NL">
-                        <FaFacebook style={{ height: '40px', width: '40px', color: 'blue' }} />
+                        <FaFacebook style={{ height: '30px', width: '30px', color: "#d3ad7f"}} />
                         Facebook
                     </a>
-                    <a href="https://www.linkedin.com/in/stefan-nieuwenburg/" ><FaLinkedin style={{ height: '40px', width: '40px', color: 'purple' }} />
+                    <a href="https://www.linkedin.com/in/stefan-nieuwenburg/" ><FaLinkedin style={{ height: '30px', width: '30px', color: '#d3ad7f' }} />
                         Linkedin
                     </a>
                     <a href="https://github.com/Stefannieuwenburg" >
-                        <FaGithub style={{ height: '40px', width: '40px',color: 'green' }} />
+                        <FaGithub style={{ height: '30px', width: '30px',color: '#d3ad7f' }} />
                         GitHub
                     </a>
-                </FooterFlex>
+                </FlexFooter>
                 <FlexParagraph>
                     <Paragraph>
-                    created by <ParagraphStyled> Stefan Nieuwenburg </ParagraphStyled> | all rights reserved
+                            Created by
+                            <ParagraphStyled>
+                                Stefan Nieuwenburg
+                            </ParagraphStyled>
                     </Paragraph> 
                 </FlexParagraph>
-            </FooterContainer>
+                </FooterContainer>
+            </BoxFooter>
         </Fragment>
     );
 };

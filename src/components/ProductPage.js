@@ -63,17 +63,24 @@ const Icons = styled.div`
 const Stars = styled.div`
     color:yellow;
 `;
-
+const Button = styled.button`
+    background-color: var(--bg);
+    cursor: pointer;
+    border: none;
+    outline: none;
+`;
 
 
 const ProductPage = () => {
+    const handleClickCart = (e) => {
+         e.preventDefault(alert("add to cart"));
+    }
     return (
         <Fragment>
             <ProductContainer id="Product">
                 <PageTitle>
                     our <span>products</span>
                 </PageTitle>
-
                 <Boxes>
                     <Box>
                         <img
@@ -92,10 +99,9 @@ const ProductPage = () => {
                             <Price>
                                 <span>Sale</span> $15.99
                             </Price>
-                            <Icons
-                                href="#Home"
+                            <Button onClick={handleClickCart}> <Icons 
                                 className="fas fa-shopping-cart"
-                            />
+                            /></Button>
                         </Stars>
                     </Box>
 
@@ -116,10 +122,9 @@ const ProductPage = () => {
                             <Price>
                                 <span>Sale</span>$15.99
                             </Price>
-                            <Icons
-                                href="#Home"
+                            <Button onClick={handleClickCart}> <Icons 
                                 className="fas fa-shopping-cart"
-                            />
+                            /></Button>
                         </Stars>
                     </Box>
 
@@ -140,10 +145,10 @@ const ProductPage = () => {
                             <Price>
                                 <span>Sale</span>$15.99
                             </Price>
-                            <Icons
-                                href="#Home"
+                            <Button onClick={handleClickCart}> <Icons 
                                 className="fas fa-shopping-cart"
-                            />
+                            /></Button>
+                           
                         </Stars>
                     </Box>
                 </Boxes>

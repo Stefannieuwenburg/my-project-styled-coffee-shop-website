@@ -74,7 +74,7 @@ const Paragraph = styled.p`
 `;
 
 const Blogs = () => {
-    const blogOnclick = () => {
+    const blogOnClick = () => {
         window.location.href = "#Menu";
     }
     return (
@@ -100,7 +100,7 @@ const Blogs = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.
                         </Paragraph>
-                        <Button onClick={blogOnclick}>read more</Button>
+                        <Button onClick={blogOnClick}>read more</Button>
                     </Box>
 
                     <Box>
@@ -116,7 +116,7 @@ const Blogs = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.
                         </Paragraph>
-                        <Button onClick={blogOnclick}>read more</Button>
+                        <Button onClick={blogOnClick}>read more</Button>
                     </Box>
 
                     <Box>
@@ -132,7 +132,7 @@ const Blogs = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Non, dicta.
                         </Paragraph>
-                        <Button onClick={blogOnclick}>read more</Button>
+                        <Button onClick={blogOnClick}>read more</Button>
                     </Box>
                 </Boxes>
             </BlogContainer>
