@@ -3,6 +3,12 @@ import styled from "styled-components";
 import { FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa';
 import {Paragraph} from '../GlobalStyle';
 
+const FooterContainer = styled.div`
+    min-height: 20vh;
+    background-color: var(--bg);
+    padding-top: 0.2rem;
+`;
+
 const FlexHeader = styled.div`
     display: flex;
     flex-direction: row;
@@ -31,10 +37,6 @@ const HeaderTitle = styled.h2`
     }
 `;
 
-const FooterContainer = styled.div`
-    background-color: var(--bg);
-    padding-top: 0.2rem;
-`;
 const ParagraphStyled = styled.p`
     font-size: 1.2rem;
     margin: 1.2rem;
@@ -78,13 +80,13 @@ const BoxFooter = styled.div`
 const Footer = () => {
     return (
         <Fragment>
+            <FooterContainer id="Info">
             <FlexHeader>
                 <HeaderTitle>
                     <span>info </span>contact
                 </HeaderTitle>
             </FlexHeader>
             <BoxFooter>
-                <FooterContainer id="Info">
                 <FlexFooter>
                     <a href="https://www.facebook.com/stefan.nieuwenburg.35/?locale=nl_NL">
                         <FaFacebook style={{ height: '30px', width: '30px', color: "#d3ad7f"}} />
@@ -106,8 +108,8 @@ const Footer = () => {
                             </ParagraphStyled>
                     </Paragraph> 
                 </FlexParagraph>
-                </FooterContainer>
             </BoxFooter>
+            </FooterContainer>
         </Fragment>
     );
 };
