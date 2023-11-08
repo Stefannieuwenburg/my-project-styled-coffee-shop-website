@@ -19,7 +19,6 @@ const ImageContainer = styled.div`
     border-radius: 20px;
 `;
 const Wrapper = styled.div`
-    background-color: var(--main-color);
     margin: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -74,7 +73,7 @@ const BoxTitle = styled.h3`
     font-family: "Roboto", sans-serif;
     font-size: 2.2rem;
     margin: 1.2rem;
-    color: var(--black);
+    color: var(--main-color);
 `;
 
 const Button = styled.button`

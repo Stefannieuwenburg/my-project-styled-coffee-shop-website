@@ -68,7 +68,6 @@ const FlexParagraph = styled.div`
 `;
 const BoxFooter = styled.div`
     margin: 1.2rem;
-    background: var(--bg);
     text-align: center;
     border: 3px solid var(--main-color);
     border-radius: 20px;
