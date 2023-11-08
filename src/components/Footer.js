@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa';
 import {Paragraph} from '../GlobalStyle';
 
 const FooterContainer = styled.div`
-    min-height: 20vh;
+    min-height: 40vh;
     background-color: var(--bg);
     padding-top: 0.2rem;
 `;
