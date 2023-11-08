@@ -27,7 +27,7 @@ const Wrapper = styled.div`
     min-height: 1%;
     min-width:1%;
     border: 3px solid var(--main-color);
-    border-radius: 10px;
+    border-radius: 20px;
 `;
 
 const HeaderTitle = styled.h2`
@@ -38,10 +38,11 @@ const HeaderTitle = styled.h2`
     background: none;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: var(--main-color);
     font-size: 4rem;
     letter-spacing: 2px;
+    border-radius: 20px;
     span {
         color: #fff;
         text-transform: uppercase;
@@ -52,7 +53,6 @@ const WrapperForm = styled.div`
 `;
 
 const InputBox = styled.p`
-    background: none;
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     padding: 1.2rem;
@@ -61,8 +61,9 @@ const InputBox = styled.p`
         color: var(--main-color);
     }
     input{
-         border-radius: 20px;
+         color: var(--white);
          padding: 0.4rem;
+         color: var(--white);
     }
 `;
 const BoxTitle = styled.h3`
