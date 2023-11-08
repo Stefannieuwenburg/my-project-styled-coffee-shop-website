@@ -46,6 +46,7 @@ const HeaderTitle = styled.h2`
     span {
         color: #fff;
         text-transform: uppercase;
+        border-radius: 20px;
     }
 `;
 const WrapperForm = styled.div`
@@ -58,12 +59,12 @@ const InputBox = styled.p`
     padding: 1.2rem;
     color: white;
     span {
-        color: var(--main-color);
+        color: var(--gray);
     }
     input{
-         color: var(--white);
          padding: 0.4rem;
          color: var(--white);
+         border-radius: 20px;
     }
 `;
 const BoxTitle = styled.h3`
@@ -113,15 +114,15 @@ const ContactPage = () => {
                             <BoxTitle>Get in touch</BoxTitle>
                             <InputBox>
                                 <span>Name: </span>
-                                <input type="text" placeholder="name" />
+                                <input type="text" placeholder="Name" />
                             </InputBox>
                             <InputBox>
-                                <span >email: </span>
-                                <input type="email" placeholder="email" />
+                                <span >Email: </span>
+                                <input type="email" placeholder="Email" />
                             </InputBox>
                             <InputBox>
                                 <span >Phone:</span>
-                                <input type="number" placeholder="number" />
+                                <input type="number" placeholder="Phone Number" />
                             </InputBox>
                         <Button onClick={handleSubmit} input type="submit" value="contact now">
                                 submit
